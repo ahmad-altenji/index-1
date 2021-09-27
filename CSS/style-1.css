@@ -1,0 +1,426 @@
+/*common*/
+
+
+.section-heed{
+
+}
+.section-heed-titel{
+    text-transform: uppercase;
+    margin: 40px 0 15px;
+}
+.section-heed-span{
+    background-color: #6195ff;
+    height: 3px;
+    width: 100px;
+    display: block;
+    margin: 15px 0 25px;
+    
+}
+
+/*header section*/
+.ppp{
+
+}
+.header-logo{
+    float: left;
+    width: 40%;
+}
+ 
+.header-nav{
+    float: left;
+    width: 60%;
+    text-align: right;
+}
+.header-nav > li{
+    display: inline-block;
+    padding:  30px 20px;
+}
+    
+.header-nav > li > a{
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}   
+
+.header-nav > li > a::after{
+    content:"";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color:#6195ff ;
+    transition: width 0.5s;
+}
+
+.header-nav > li > a:hover:after{
+    width: 100%;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    background-color: #6195ff;
+    width: 150px;
+    text-align: center;
+    left: -46%;
+    top: 63px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-menu a{
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}    
+/*header-2 section*/
+.header-2{
+    background:#eee ;
+    padding: 70px 0 50px;
+   
+}
+.header-2-titel{
+    float: left;
+    margin-top: 70px;
+    font-size: 40px;
+}
+    
+.header-2-list {
+    float: right;
+}
+   
+.header-2-list li{
+   display: inline-block;
+   margin-top: 80px;
+   font-size: 20px;
+   text-transform: capitalize;
+}
+   
+.header-2-list li .blo{
+    color: #6195ff;
+}
+
+.header-2-list li .gry{
+    color: #999;
+}
+/*section 1*/
+/*left*/
+.pp{
+
+}
+
+.section-1{
+    padding: 120px 0 20px 0;
+}
+
+.section-1-item{
+    overflow: hidden;
+}
+
+.item-left{
+    float: left;
+    margin-right: 10px;
+    width: 68%;
+}
+
+.left-img img{
+    width: 100%;
+}
+
+.left-list-1 li{
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px 20px 0 ;
+    text-transform: capitalize;
+}
+   
+.left-list-1 li i{
+    color: #6195ff;
+    margin-right: 8px;
+}
+
+.left-titel,.left-p{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.left-p{
+    color: #999;
+    line-height: 1.5;
+}
+.left-list-2 .titel-tag{
+    font-size: 30px;
+    display:inline-block;
+    text-transform: capitalize;
+}
+
+.left-list-2 .tag{
+    display: inline-block;
+    background: #eee;
+    margin:  0 5px 5px 2px;
+    padding: 10px 15px;
+   
+}
+
+.left-list-2 .tag i{
+    color: #6195ff;
+    
+}
+
+.left-list-2 .tag:hover{
+    background:#6195ff ;
+    color: #fff;
+}
+.left-list-2 .tag:hover i{
+    color: #fff;
+}
+
+.left2{
+    overflow: hidden;
+    border: #eee solid 1px;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.left2 img{
+    width: 30%;
+    float: left;
+    margin-right:15px ;
+}
+
+.left2-titel ,hr{
+    margin-bottom: 15px;
+}
+
+.left2-p{
+    color: #999;
+    line-height: 1.5;
+}
+.left-list-3{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+    
+.left-list-3 li{
+    padding: 10px ;
+    display: inline-block;
+    background: #6195ff ;
+    margin: 0 5px;
+    border-radius: 10% ;    
+}
+.left-list-3 li a i{
+color: #fff;
+}
+ /*item right*/
+ .ppp{
+
+ }
+
+ .item-right{
+     float: right;
+     width: 30%;
+     position: relative;
+}
+
+.item-right-inpuy{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background:  #eee;
+    border: none;
+  
+}
+
+.item-right a i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #6195ff;
+}
+/* .CATEGORY { */
+ 
+.CATEGORY ul li{
+border-top:solid 1px #eee ;
+overflow: hidden;
+}
+.CATEGORY ul li.border-bootm{
+border-bottom: solid 1px #eee;
+}
+
+.CATEGORY ul li a{
+ color: #000;
+ text-transform: capitalize;
+ float: left;
+ padding: 10px;
+}
+
+.CATEGORY ul li a:hover{
+    color: #6195ff;
+}
+
+.CATEGORY ul li span{
+   float: right;
+   color: #6195ff;
+   padding: 10px;
+}
+/*poste*/
+.poste-info{
+    overflow: hidden;
+}
+
+.poste-info.mg{
+    margin: 40px 0;
+}
+
+.poste-info img{
+    width:40% ;
+    float: left;
+}
+
+.POSTE-item{
+    float: right;
+    width: 58%;
+    padding: 5px;
+}
+
+.POSTE-item a{
+    color: #000;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+.POSTE-item a:hover{
+    color: #6195ff;
+}  
+
+.POSTE-item span{
+    color: #6195ff;
+}
+/* section 2*/
+.section2-item{
+    border: solid 1px #eee;
+    width: 68%;
+}
+
+.section2-info{
+    border-bottom:solid 1px #eee ;
+    position: relative;
+    padding: 25px;
+}
+    
+.section2-info img{
+   width: 15%;
+   float: left;
+}
+    
+.section2-info-raght{
+    float: right;
+    width: 80%;
+    margin: 10px ;
+}
+
+.section2-titel{
+    margin: 0 15px 15px 0;
+    display: inline-block;
+}
+.section2-span{
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.section2-p{
+    color: #999;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.section2-info .section2-a{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    color: #6195ff;
+}
+.section2-info .section2-a i{
+    margin-left:15px ;
+}
+    
+.section2-info.border{
+    border: solid 1px #6195ff;
+}
+/*section 3*/
+.section3-item{
+    width: 68%;
+}
+
+.section3-input, textarea{
+    
+    border: none;
+    background: #eee;
+    text-align: 16px;
+    text-transform: capitalize;
+}
+.section3-input{
+    width: 48.5%;
+    height: 30px;
+}
+  
+.section3-input.mg{
+    margin-right:20px ;
+}
+.section3-item textarea{
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+}
+  
+.section3-item-buttom{
+    width: 100px;
+    height: 35px;
+    background: #6195ff;
+    color: #fff;
+    border: none;
+    margin-bottom:20px ;
+}
+/*footer2*/
+.footer2{
+    background: #1c1d21;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer2 ul li{
+    display: inline-block;
+    background:#6195ff ;
+    width: 35px;
+    height: 35px;
+    margin: 5px 5px 20px 5px;
+    border-radius:10%;
+    transition: border-radius 0.5s ;
+}
+
+.footer2 ul li:hover{
+    border-radius:50% ;
+}
+
+
+.footer2 ul li i{
+    color: #fff;
+    padding: 10px;
+}
+
+.footer2-p{
+    color: #fff;
+}
+
+
+    
+
